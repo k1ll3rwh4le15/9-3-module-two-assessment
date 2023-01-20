@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli Review App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="movies">
+            <h2>Select a movie</h2>
+            <select name="titles" id="titles">
+                <option value=""></option>
+            </select>
+        </section>
+        <section class="user-review">
+            <h2>Add a review</h2>
+            <form>
+                <label for="review">Your review</label>
+                <input id = "review"type="text">
+                <input type="submit">
+            </form>
+        </section>
+        <section class="movie-details">
+            <h2>Movie details</h2>
+            <div id="display-info"></div>
+        </section>
+        <section class="people">
+            <h2>People</h2>
+            <ol></ol>
+            <button id="show-people">Show People</button>
+        </section>
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <ul></ul>
+            <button id="reset-reviews">Reset Reviews</button>
+        </section>
+    </main>
+    
+</body>
+</html>
